@@ -8,11 +8,14 @@ public class Lec01IntroStream {
     public static void main(String[] args) {
 
         /*
+         * Stream sources: list.stream, set.stream, Arrays.stream, Stream.of, map.entrySet.stream
+         * Primitive streams: IntStream, DoubleStream, LongStream :: Se puede usar uno luego de otros para casteos
+         *     
          * Stream Operations ::
          *      Intermediate: Returns new streams. Lazy 
          *          filter, map, limit, skip, distinct, sorted, flatMap, peek
          *      Terminal: Stream is consumed. Can not be reused. 
-         *          forEach, collect, count, min, max, findAny, anyMatch, noneMatch
+         *          forEach, collect, count, min, max, findAny, findFirst, anyMatch, noneMatch, reduce
          */
 
         /*

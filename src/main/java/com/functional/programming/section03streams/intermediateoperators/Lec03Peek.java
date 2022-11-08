@@ -1,4 +1,4 @@
-package com.functional.programming.section03streams;
+package com.functional.programming.section03streams.intermediateoperators;
 
 import java.util.ArrayList;
 import java.util.List;
